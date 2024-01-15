@@ -135,29 +135,7 @@ HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);//pwm baslatma
 		  HAL_Delay(120);
 
 	  }
-//	  else if(adc_deger<3000 && adc_deger>=2500)
-//	  {
-//		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
-//		  __HAL_TIM_SET_AUTORELOAD(&htim2, x * 2);
-//		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, x);
-//		  HAL_Delay(300);
-//		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
-//		  __HAL_TIM_SET_AUTORELOAD(&htim2, 0);
-//		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, 0);
-//		  HAL_Delay(300);
-//	  }
-//	  else if(adc_deger<2500)
-//	  {
-//
-//			HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
-//			__HAL_TIM_SET_AUTORELOAD(&htim2, x * 2);
-//			__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, x);
-//			HAL_Delay(100);
-//			HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
-//			__HAL_TIM_SET_AUTORELOAD(&htim2, 0);
-//			__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, 0);
-//			HAL_Delay(100);
-//	  }
+
   }
   /* USER CODE END 3 */
 }
